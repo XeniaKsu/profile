@@ -1,0 +1,125 @@
+h1 {
+  color: #000000;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 40px;
+  line-height: 1.6;
+  font-weight: 900;
+}
+
+h2 {
+  color: #000000;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 24px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+body {
+  color: #14213d;
+  background-color: #fca311;
+  font-family: 'Arvo', serif;
+  line-height: 1.6;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+p {
+  color: #14213d;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 17px;
+}
+
+a {
+  color: #14213d;
+  font-weight: 600;
+  font-size: 16x;
+}
+
+a:hover {
+  color: #e5e5e5;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 40px auto;
+  }
+}
+
+#introduction {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.image-profile {
+width: 140px;
+height: 100px;
+object-fit: cover;
+object-position: 240% 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 /15%);
+  border-radius: 4px solid rgb(180, 174, 174);
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+font-family: 'Lucida Sans';
+font-size: 24px;
+}
+
+.list-inline > li {
+  color: #14213d;
+  display: inline-block;
+  padding: 16px;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands"
+}
